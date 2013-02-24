@@ -1,0 +1,20 @@
+DES算法分析
+
+加密函数：int DES_Encrypt(char *plainFile, char *keyStr,char *cipherFile)
+
+参数：
+	plainfile--------明文文件
+    keyStr-----------密钥
+    cipherfile-------密文文件
+
+算法过程：
+
+(1)设置密钥
+	1.1  把密钥转换为二进制比特流
+	1.2  生成子密钥
+
+(2)对明文做一个固定的初始置换IP
+
+	2.1	 将明文转换为二进制比特流  
+    2.2  
+(3)
